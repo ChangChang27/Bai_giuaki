@@ -39,8 +39,15 @@ Hệ thống dự kiến phát triển các chức năng sau:
 | 06 | 📡 Truyền thông | Gửi dữ liệu qua Wi-Fi và MQTT |
 | 07 | 📊 Giám sát | Hiển thị dữ liệu trên Node-RED Dashboard |
 | 08 | 🔔 Cảnh báo | Cảnh báo khi thông số vượt ngưỡng |
-## 🔌 4. Phần cứng dự kiến (Proposed Hardware)
+## 🔌 4. Phần cứng dự kiến 
 
-| STT | Linh kiện | Chức năng |
-|:---:|---|---|
-| 01 | ESP32 DevKit V1 | 🧠 Vi điều khiển trung tâm |
+| Linh kiện | Hình ảnh | Chức năng |
+|---|---|---|
+| ESP32 DevKit V1 | ![ESP32](images/esp32.jpg) | Main controller, Wi-Fi communication |
+| pH Sensor | ![pH Sensor](images/ph_sensor.jpg) | Measures water pH |
+| TDS Sensor | ![TDS Sensor](images/tds_sensor.jpg) | Measures total dissolved solids |
+| Turbidity Sensor | ![Turbidity](images/turbidity_sensor.jpg) | Measures water turbidity |
+| DS18B20 | ![DS18B20](images/ds18b20.jpg) | Measures water temperature |
+| ADS1115 | ![ADS1115](images/ads1115.jpg) | External ADC |
+| OLED Display | ![OLED](images/oled.jpg) | Displays measurement results |
+| RGB LED & Buzzer | ![LED and Buzzer](images/led_buzzer.jpg) | Local warning system |
