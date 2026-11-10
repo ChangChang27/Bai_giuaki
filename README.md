@@ -38,7 +38,7 @@ Hệ thống dự kiến phát triển các chức năng sau:
 | 05 | ⚙️ Xử lý dữ liệu | ESP32 thu thập và xử lý dữ liệu cảm biến |
 | 06 | 📡 Truyền thông | Gửi dữ liệu qua Wi-Fi và MQTT |
 | 07 | 📊 Giám sát | Hiển thị dữ liệu trên Node-RED Dashboard |
-| 08 | 🔔 Cảnh báo | Cảnh báo khi thông số vượt ngưỡng |
+| 08 | 🔔 Cảnh báo | Cảnh báo khi thông số vượt ngưỡng | 
 ## 🔌 4. Phần cứng dự kiến 
 
 | Linh kiện | Hình ảnh | Chức năng |
