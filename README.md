@@ -44,10 +44,9 @@ Hệ thống dự kiến phát triển các chức năng sau:
 | Linh kiện | Hình ảnh | Chức năng |
 |---|---|---|
 | ESP32 DevKit V1 | ![ESP32](Screenshot 2026-11-10 023034.png) | Vi điều khiển trung tâm |
-| pH Sensor |  | Measures water pH |
-| TDS Sensor |  | Measures total dissolved solids |
-| Turbidity Sensor || Measures water turbidity |
-| DS18B20 | ![DS18B20](images/ds18b20.jpg) | Measures water temperature |
-| ADS1115 | ![ADS1115](images/ads1115.jpg) | External ADC |
-| OLED Display | ![OLED](images/oled.jpg) | Displays measurement results |
-| RGB LED & Buzzer | ![LED and Buzzer](images/led_buzzer.jpg) | Local warning system |
+| Cảm biến pH  |  | Đo độ PH |
+| Cảm biến TDS  |  | Đo tổng chất rắn hòa tan |
+| Cảm biến Turbidity |![Turbidity](ducnuoc.png)| Đo độ đục nước |
+| Cảm biến DS18B20 | ![DS18B20](images/ds18b20.jpg) | Đo nhiệt độ nước |
+| Màn hình LCD | ![OLED](images/oled.jpg) | Hiển thị kết quả |
+| Đèn LED & Còi | ![LED and Buzzer](images/led_buzzer.jpg) | Local warning system |
