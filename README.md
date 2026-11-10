@@ -68,14 +68,21 @@ Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị t
 
 Sau khi hoàn thành, hệ thống dự kiến đạt được:
 
-**✅ Xây dựng mô hình giám sát chất lượng nước sử dụng ESP32.**
+**✅ Đo và giám sát các thông số chất lượng nước gồm pH, TDS, độ đục và nhiệt độ.**
 
-**✅ Đọc và xử lý được dữ liệu từ các cảm biến.**
+**✅ Hiển thị các giá trị đo được trực tiếp trên màn hình OLED.**
 
-**✅ Hiển thị thông số mong muốn trên Node-RED Dashboard theo thời gian thực.**
+**✅ Truyền dữ liệu cảm biến lên MQTT Broker thông qua kết nối Wi-Fi.**
 
-**✅ Lưu trữ và theo dõi lịch sử dữ liệu đo.**
+**✅ Hiển thị các thông số đo theo thời gian thực trên giao diện Node-RED Dashboard.**
 
-**✅ Cảnh báo khi thông số vượt ngưỡng thiết lập.**
+**✅ Cho phép người dùng theo dõi chất lượng nước từ xa thông qua máy tính hoặc điện thoại.**
 
-**✅ Điều khiển được một số thiết bị ngoại vi từ xa qua Internet.**
+**✅ Cảnh báo bằng LED RGB khi các thông số vượt quá ngưỡng cho phép đã thiết lập.**
+## 📚 9. TÀI LIỆU THAM KHẢO
+
+1. [Datasheet ESP32-WROOM-32 – Espressif Systems](https://documentation.espressif.com/esp32-wroom-32_datasheet_en.html)
+2. [Tài liệu Node-RED](https://nodered.org/docs/)
+3. [Trang chủ giao thức MQTT](https://mqtt.org/)
+4. [Trang chủ DFRobot](https://www.dfrobot.com/)
+5. [Datasheet cảm biến DS18B20](https://www.analog.com/en/products/ds18b20.html)
