@@ -72,7 +72,7 @@ Sau khi hoàn thành, hệ thống dự kiến đạt được:
 
 **✅ Đọc và xử lý được dữ liệu từ các cảm biến.**
 
-**✅ Hiển thị thông số nước trên Node-RED Dashboard theo thời gian thực.**
+**✅ Hiển thị thông số mong muốn trên Node-RED Dashboard theo thời gian thực.**
 
 **✅ Lưu trữ và theo dõi lịch sử dữ liệu đo.**
 
