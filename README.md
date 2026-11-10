@@ -79,7 +79,7 @@ Sau khi hoàn thành, hệ thống dự kiến đạt được:
 **✅ Cho phép người dùng theo dõi chất lượng nước từ xa thông qua máy tính hoặc điện thoại.**
 
 **✅ Cảnh báo bằng LED RGB khi các thông số vượt quá ngưỡng cho phép đã thiết lập.**
-## 📚 9. TÀI LIỆU THAM KHẢO
+## 📚 7. TÀI LIỆU THAM KHẢO
 
 1. [Datasheet ESP32-WROOM-32 – Espressif Systems](https://documentation.espressif.com/esp32-wroom-32_datasheet_en.html)
 2. [Tài liệu Node-RED](https://nodered.org/docs/)
