@@ -43,7 +43,7 @@ Hệ thống dự kiến phát triển các chức năng sau:
 
 | Linh kiện | Hình ảnh | Chức năng |
 |---|---|---|
-| ESP32 DevKit V1 | ![ESP32](Screenshot 2026-11-10 023034.jpg) | Vi điều khiển trung tâm |
+| ESP32 DevKit V1 |(Screenshot2026-11-10 023034.jpg) | Vi điều khiển trung tâm |
 | pH Sensor | ![pH Sensor](images/ph_sensor.jpg) | Measures water pH |
 | TDS Sensor | ![TDS Sensor](images/tds_sensor.jpg) | Measures total dissolved solids |
 | Turbidity Sensor | ![Turbidity](images/turbidity_sensor.jpg) | Measures water turbidity |
