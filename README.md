@@ -4,6 +4,7 @@
 💡 **Bối cảnh thực tế**
 
 Nước là nguồn tài nguyên thiết yếu trong sinh hoạt, sản xuất nông nghiệp và nuôi trồng thủy sản. Tuy nhiên, chất lượng nước có thể thay đổi theo thời gian do các yếu tố môi trường, hoạt động sản xuất và quá trình ô nhiễm.
+
 ⚠️ **Vấn đề cần giải quyết**
 
 Trong thực tế, việc kiểm tra chất lượng nước ở nhiều hộ gia đình, bể chứa hoặc mô hình nuôi trồng thủy sản vẫn chủ yếu dựa vào phương pháp đo thủ công. Phương pháp này có một số hạn chế:
