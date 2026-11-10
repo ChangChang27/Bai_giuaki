@@ -65,21 +65,6 @@ Hệ thống được chia thành các khối chức năng chính:
 
 Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị thông số và cảnh báo trực tiếp tại thiết bị.
 
-## Sơ đồ khối hệ thống
-
-```mermaid
-flowchart TD
-    A[Cảm biến pH] --> ESP32[ESP32 DevKit V1]
-    B[Cảm biến nhiệt độ DS18B20] --> ESP32
-    C[Cảm biến độ đục] --> ESP32
-    D[Cảm biến TDS] --> ESP32
-
-    ESP32 --> E[Xử lý dữ liệu]
-    E --> F[Hiển thị thông số]
-    E --> G[Wi-Fi]
-    G --> H[ThingSpeak]
-    H --> I[Điện thoại / Máy tính]
-```
 
 ## Sơ đồ khối hệ thống
 
