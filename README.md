@@ -81,6 +81,33 @@ flowchart TD
     H --> I[Điện thoại / Máy tính]
 ```
 
+## Sơ đồ khối hệ thống
+
+```mermaid
+flowchart TB
+    subgraph SENSOR["KHỐI CẢM BIẾN"]
+        A["Cảm biến pH"]
+        B["Cảm biến nhiệt độ DS18B20"]
+        C["Cảm biến độ đục"]
+        D["Cảm biến TDS"]
+    end
+
+    A --> ESP
+    B --> ESP
+    C --> ESP
+    D --> ESP
+
+    ESP["ESP32 DevKit V1"]
+    ESP --> PROCESS["Xử lý dữ liệu"]
+
+    PROCESS --> WIFI["Wi-Fi"]
+    WIFI <--> MQTT["MQTT Broker"]
+
+    MQTT <--> APP["Ứng dụng giám sát"]
+    APP --> USER["Người dùng"]
+```
+
+
 
 ## 📈 6. Kết quả dự kiến 
 
