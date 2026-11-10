@@ -63,3 +63,19 @@ Hệ thống được chia thành các khối chức năng chính:
 **Khối giám sát:** Sử dụng Node-RED Dashboard để hiển thị dữ liệu và theo dõi chất lượng nước từ xa.
 
 Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị thông số và cảnh báo trực tiếp tại thiết bị.
+
+## 📈 6. Kết quả dự kiến 
+
+Sau khi hoàn thành, hệ thống dự kiến đạt được:
+
+**✅ Xây dựng mô hình giám sát chất lượng nước sử dụng ESP32.**
+
+**✅ Đọc và xử lý được dữ liệu từ các cảm biến.**
+
+**✅ Hiển thị thông số nước trên Node-RED Dashboard theo thời gian thực.**
+
+**✅ Lưu trữ và theo dõi lịch sử dữ liệu đo.**
+
+**✅ Cảnh báo khi thông số vượt ngưỡng thiết lập.**
+
+**✅ Điều khiển được một số thiết bị ngoại vi từ xa qua Internet.**
