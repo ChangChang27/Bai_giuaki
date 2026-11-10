@@ -54,12 +54,12 @@ Hệ thống dự kiến phát triển các chức năng sau:
 
 Hệ thống được chia thành các khối chức năng chính:
 
-Khối cảm biến: Thu thập các thông số chất lượng nước gồm pH, TDS, độ đục và nhiệt độ.
+## Khối cảm biến:  Thu thập các thông số chất lượng nước gồm pH, TDS, độ đục và nhiệt độ.
 
-Khối xử lý trung tâm: ESP32 tiếp nhận, xử lý và phân tích dữ liệu từ các cảm biến.
+## Khối xử lý trung tâm: ESP32 tiếp nhận, xử lý và phân tích dữ liệu từ các cảm biến.
 
-Khối truyền thông: Sử dụng Wi-Fi và giao thức MQTT để truyền dữ liệu lên máy chủ.
+## Khối truyền thông: Sử dụng Wi-Fi và giao thức MQTT để truyền dữ liệu lên máy chủ.
 
-Khối giám sát: Sử dụng Node-RED Dashboard để hiển thị dữ liệu và theo dõi chất lượng nước từ xa.
+## Khối giám sát: Sử dụng Node-RED Dashboard để hiển thị dữ liệu và theo dõi chất lượng nước từ xa.
 
 Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị thông số và cảnh báo trực tiếp tại thiết bị.
