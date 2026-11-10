@@ -43,7 +43,7 @@ Hệ thống dự kiến phát triển các chức năng sau:
 
 | Linh kiện | Hình ảnh | Chức năng |
 |---|---|---|
-| ESP32 DevKit V1 | ![ESP32](Screenshot 2026-11-10 023034.png) | Vi điều khiển trung tâm |
+| ESP32 DevKit V1 | ![ESP32](esp.png) | Vi điều khiển trung tâm |
 | Cảm biến pH  | ![ph](ph.webp) | Đo độ PH |
 | Cảm biến TDS  |![TDS](TDS.png)  | Đo tổng chất rắn hòa tan |
 | Cảm biến Turbidity |![Turbidity](ducnuoc.png)| Đo độ đục nước |
