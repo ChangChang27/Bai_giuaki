@@ -47,6 +47,6 @@ Hệ thống dự kiến phát triển các chức năng sau:
 | Cảm biến pH  | ![ph](ph.webp) | Đo độ PH |
 | Cảm biến TDS  |![TDS](TDS.png)  | Đo tổng chất rắn hòa tan |
 | Cảm biến Turbidity |![Turbidity](ducnuoc.png)| Đo độ đục nước |
-| Cảm biến DS18B20 | ![DS18B20](images/ds18b20.jpg) | Đo nhiệt độ nước |
+| Cảm biến DS18B20 | ![DS18B20](nhietdo.png) | Đo nhiệt độ nước |
 | Màn hình LCD | ![LCD](LCD.png) | Hiển thị kết quả |
 | Đèn LED & Còi | ![LED and Buzzer](LED.png) | Local warning system |
