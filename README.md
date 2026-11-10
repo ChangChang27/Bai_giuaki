@@ -49,4 +49,17 @@ Hệ thống dự kiến phát triển các chức năng sau:
 | Cảm biến Turbidity |![Turbidity](ducnuoc.png)| Đo độ đục nước |
 | Cảm biến DS18B20 | ![DS18B20](nhietdo.png) | Đo nhiệt độ nước |
 | Màn hình LCD | ![LCD](LCD.png) | Hiển thị kết quả |
-| Đèn LED & Còi | ![LED and Buzzer](LED.png) | Local warning system |
+| Đèn LED | ![LED ](LED.png) | LED cảnh báo |
+## 🧩 5. Sơ đồ khối dự kiến (Proposed Block Diagram)
+
+Hệ thống được chia thành các khối chức năng chính:
+
+Khối cảm biến: Thu thập các thông số chất lượng nước gồm pH, TDS, độ đục và nhiệt độ.
+
+Khối xử lý trung tâm: ESP32 tiếp nhận, xử lý và phân tích dữ liệu từ các cảm biến.
+
+Khối truyền thông: Sử dụng Wi-Fi và giao thức MQTT để truyền dữ liệu lên máy chủ.
+
+Khối giám sát: Sử dụng Node-RED Dashboard để hiển thị dữ liệu và theo dõi chất lượng nước từ xa.
+
+Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị thông số và cảnh báo trực tiếp tại thiết bị.
