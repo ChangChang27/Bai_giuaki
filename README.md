@@ -64,6 +64,20 @@ Hệ thống được chia thành các khối chức năng chính:
 **Khối giám sát:** Sử dụng Node-RED Dashboard để hiển thị dữ liệu và theo dõi chất lượng nước từ xa.
 
 Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị thông số và cảnh báo trực tiếp tại thiết bị.
+## Sơ đồ khối hệ thống
+
+```mermaid
+flowchart TB
+    A["Cảm biến pH"] --> D["ESP32 DevKit V1"]
+    B["Cảm biến nhiệt độ DS18B20"] --> D
+    C["Cảm biến độ đục nước"] --> D
+    E["Cảm biến TDS"] --> D
+
+    D --> F["Xử lý và phân tích dữ liệu"]
+    F --> G["Hiển thị thông số"]
+    F --> H["Truyền dữ liệu Wi-Fi"]
+    H --> I["ThingSpeak / IoT Cloud"]
+    I --> J["Điện thoại / Máy tính"]
 
 ## 📈 6. Kết quả dự kiến 
 
