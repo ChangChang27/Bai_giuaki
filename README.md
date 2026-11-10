@@ -1,20 +1,4 @@
-# 💧 ESP32-Based IoT Water Quality Monitoring System
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-ESP32-blue?logo=espressif" />
-  <img src="https://img.shields.io/badge/Communication-MQTT-purple" />
-  <img src="https://img.shields.io/badge/Dashboard-Node--RED-red?logo=nodered" />
-  <img src="https://img.shields.io/badge/Language-C%2FC++-blue?logo=cplusplus" />
-  <img src="https://img.shields.io/badge/Status-Proposal-orange" />
-</p>
-
-<p align="center">
-  <b>🌊 Hệ thống IoT giám sát chất lượng nước sử dụng ESP32</b>
-  <br>
-  Giám sát thông số nước theo thời gian thực và cảnh báo từ xa thông qua Internet.
-</p>
-
----
+ĐỀ TÀI GIỮA KỲ: HỆ THỐNG IoT GIÁM SÁT CHẤT LƯỢNG NƯỚC SỬ DỤNG ESP32
 
 ## 📌 1. Đặt bài toán (Problem Statement)
 
