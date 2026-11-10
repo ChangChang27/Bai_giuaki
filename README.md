@@ -1,5 +1,5 @@
 # ĐỀ TÀI ĐỀ XUẤT: HỆ THỐNG IoT GIÁM SÁT CHẤT LƯỢNG NƯỚC SỬ DỤNG ESP32
-## 📌 1. Đặt bài toán (Problem Statement)
+## 📌 1. Đặt bài toán 
 
 💡 **Bối cảnh thực tế**
 
@@ -19,14 +19,14 @@ Trong thực tế, việc kiểm tra chất lượng nước ở nhiều hộ gi
 Xuất phát từ nhu cầu theo dõi chất lượng nước thường xuyên và thuận tiện hơn, đề tài đề xuất xây dựng một hệ thống giám sát chất lượng nước ứng dụng công nghệ IoT.
 
 Hệ thống sử dụng ESP32 kết hợp với các cảm biến để thu thập thông số nước, truyền dữ liệu qua Internet và cho phép người dùng giám sát từ xa trên máy tính hoặc điện thoại thông qua Node-RED Dashboard.
-## 🎯 2. Mục tiêu đề tài (Project Objectives)
+## 🎯 2. Mục tiêu đề tài 
 
 - 🔬 Xây dựng thiết bị có khả năng đo và giám sát một số thông số chất lượng nước.
 - ⚙️ Thu thập và xử lý dữ liệu cảm biến bằng ESP32.
 - 🌐 Truyền dữ liệu lên hệ thống giám sát thông qua giao thức MQTT.
 - 📊 Xây dựng giao diện Node-RED Dashboard để hiển thị thông số theo thời gian thực.
 - 🔔 Phát hiện và cảnh báo khi các thông số đo vượt ngưỡng cài đặt.
-## 🛠️ 3. Nội dung chính (Main Contents)
+## 🛠️ 3. Nội dung chính 
 
 Hệ thống dự kiến phát triển các chức năng sau:
 
@@ -51,7 +51,7 @@ Hệ thống dự kiến phát triển các chức năng sau:
 | Cảm biến DS18B20 | ![DS18B20](nhietdo.png) | Đo nhiệt độ nước |
 | Màn hình LCD | ![LCD](LCD.png) | Hiển thị kết quả |
 | Đèn LED | ![LED ](LED.png) | LED cảnh báo |
-## 🧩 5. Sơ đồ khối dự kiến (Proposed Block Diagram)
+## 🧩 5. Sơ đồ khối dự kiến 
 
 Hệ thống được chia thành các khối chức năng chính:
 
@@ -64,20 +64,6 @@ Hệ thống được chia thành các khối chức năng chính:
 **Khối giám sát:** Sử dụng Node-RED Dashboard để hiển thị dữ liệu và theo dõi chất lượng nước từ xa.
 
 Ngoài ra, ESP32 kết nối với màn hình OLED, LED RGB để hiển thị thông số và cảnh báo trực tiếp tại thiết bị.
-## Sơ đồ khối hệ thống
-
-```mermaid
-flowchart TB
-    A["Cảm biến pH"] --> D["ESP32 DevKit V1"]
-    B["Cảm biến nhiệt độ DS18B20"] --> D
-    C["Cảm biến độ đục nước"] --> D
-    E["Cảm biến TDS"] --> D
-
-    D --> F["Xử lý và phân tích dữ liệu"]
-    F --> G["Hiển thị thông số"]
-    F --> H["Truyền dữ liệu Wi-Fi"]
-    H --> I["ThingSpeak / IoT Cloud"]
-    I --> J["Điện thoại / Máy tính"]
 
 ## 📈 6. Kết quả dự kiến 
 
