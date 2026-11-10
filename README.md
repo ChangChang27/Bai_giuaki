@@ -1,4 +1,4 @@
-# ĐỀ TÀI GIỮA KỲ: HỆ THỐNG IoT GIÁM SÁT CHẤT LƯỢNG NƯỚC SỬ DỤNG ESP32
+# ĐỀ TÀI ĐỀ XUẤT: HỆ THỐNG IoT GIÁM SÁT CHẤT LƯỢNG NƯỚC SỬ DỤNG ESP32
 ## 📌 1. Đặt bài toán (Problem Statement)
 
 💡 **Bối cảnh thực tế**
