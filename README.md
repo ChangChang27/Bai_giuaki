@@ -1,3 +1,7 @@
+## Sinh viên: Nguyễn Thị Thu Trang
+## Mã Sinh Viên: 23001633
+
+
 # ĐỀ TÀI ĐỀ XUẤT: HỆ THỐNG IoT GIÁM SÁT CHẤT LƯỢNG NƯỚC SỬ DỤNG ESP32
 ## 📌 1. Đặt bài toán 
 
